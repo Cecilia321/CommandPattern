@@ -15,6 +15,8 @@ namespace CommandPattern
             this.command = NewCommand;
         }
 
+
+        //press metoden kalder vi når der er en command på remotecontrol som skal executes
         public void Press()
         {
             command.Execute();

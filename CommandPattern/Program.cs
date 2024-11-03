@@ -8,6 +8,8 @@ namespace CommandPattern
         {
             IElectronicDevice television = new Television();
             IElectronicDevice radio = new Radio();
+
+            //her skiftes der mellem de forskellige Elecctronics
             RemoteControl control = new RemoteControl(radio);
 
             control.Up.Press();
